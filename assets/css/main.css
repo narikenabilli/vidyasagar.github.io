@@ -326,6 +326,7 @@ background-color: rgb(171, 228, 241);
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
   opacity: .5;
+  border-radius: 15px;
 }
 .no-touch .cd-top:hover {
   background-color: #e86256;
