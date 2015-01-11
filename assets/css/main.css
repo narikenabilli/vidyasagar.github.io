@@ -285,6 +285,10 @@ border-radius: 7px;
 background-color: rgb(171, 228, 241);
 }
 
+.img-responsive {
+border: solid 1px rgb(91, 195, 168);
+}
+
 .cd-top.cd-is-visible {
   visibility: visible;
   opacity: 1;
