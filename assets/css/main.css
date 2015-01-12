@@ -326,6 +326,7 @@ border: solid 1px rgb(91, 195, 168);
   /* the button becomes visible */
   visibility: visible;
   opacity: 1;
+  border-radius: 15px;
 }
 .cd-top.cd-fade-out {
   /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
