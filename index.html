@@ -24,6 +24,9 @@
     <script src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
     <script src="assets/js/Chart.js"></script>
+	<!-- Report Card -->
+	<link rel="stylesheet" href="assets/js/reportcard/css/badges.css">
+	<script src="assets/js/reportcard/js/reportcard.js"></script>
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -392,8 +395,9 @@ Providing client side support for overall project by testing the application. Ma
 			</div><!--/.row -->
 			<br>
 		</div><!--/.container -->
-	</div><!--/ #skillswrap -->
+	<div class="report-card codeschool"></div>
 
+	</div><!--/ #skillswrap -->
 
 
 	<section id="work" name="work"></section>
@@ -473,5 +477,20 @@ Providing client side support for overall project by testing the application. Ma
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="assets/js/bootstrap.js"></script>
+	<script>
+            $('.report-card.treehouse').reportCard({
+                userName: 'rileyhilliard',
+                site: 'treehouse',
+                badgesAmount: 7,
+                tooltips: true
+            });
+
+            $('.report-card.codeschool').reportCard({
+                userName: 'narikenabilli',
+                site: 'codeschool',
+                badgesAmount: 6,
+                tooltips: true
+            });
+        </script>
   </body>
 </html>
