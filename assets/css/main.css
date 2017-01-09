@@ -1,16 +1,22 @@
 body {
-  background-color: #f2f2f2;
+    background-color: #f2f2f2;
     font-family: "Lato";
     font-weight: 300;
     font-size: 16px;
     color: #555;
-
     -webkit-font-smoothing: antialiased;
     -webkit-overflow-scrolling: touch;
 }
 
+
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #333;
@@ -18,6 +24,7 @@ h1, h2, h3, h4, h5, h6 {
 
 
 /* Paragraph & Typographic */
+
 p {
     line-height: 28px;
     margin-bottom: 25px;
@@ -27,11 +34,12 @@ p {
     text-align: center;
 }
 
+
 /* Links */
+
 a {
     color: #f85c37;
     word-wrap: break-word;
-
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
     -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
     -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -55,7 +63,7 @@ a:after {
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
 
- hr {
+hr {
     display: block;
     height: 1px;
     border: 0;
@@ -70,95 +78,97 @@ a:after {
 ---------------------------------------------------*/
 
 #section-topbar {
-	position: fixed;
-	top: 0;
-	left: 0;
-	right: 0;
-	z-index: 10000;
-	overflow: visible;
-	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    overflow: visible;
+    font: normal 16px/24px 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 #section-topbar a {
-  color: #fff;
+    color: #fff;
 }
 
 #topbar-inner {
-	background: #111;
-	line-height: 0;
-	text-align: center;
+    background: #111;
+    line-height: 0;
+    text-align: center;
 }
+
 
 /*
 	Top Bar
 
 	By default, top navigation bar uses "fixed" position
 */
+
 #section-topbar ul#nav {
-	display: inline-block;
-	position: relative;
-	margin: 0;
-	padding: 0;
-
-	border-right: 1px solid #222;
-
-	/* For IE, the outcast */
-	zoom:1;
-	*display: inline;
+    display: inline-block;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border-right: 1px solid #222;
+    /* For IE, the outcast */
+    zoom: 1;
+    *display: inline;
 }
 
 #section-topbar ul#nav > li {
-	display: block;
+    display: block;
     float: left;
     padding: 0;
 }
 
-
 #section-topbar ul#nav a {
-  display: block;
-  font: normal 14px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
-  text-decoration: none;
-  padding: 10px 20px 10px 20px;
-  border-left: 1px solid #222;
+    display: block;
+    font: normal 14px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    padding: 10px 20px 10px 20px;
+    border-left: 1px solid #222;
 }
 
-	#section-topbar ul#nav a:hover {
-	  background: #222;
-	  text-decoration: none;
-	  border-left: 1px solid #111;
-	}
+#section-topbar ul#nav a:hover {
+    background: #222;
+    text-decoration: none;
+    border-left: 1px solid #111;
+}
 
-	#section-topbar ul#nav .active a {
-		background: #44bbaa;
-		border-left: 1px solid #111;
-	}
+#section-topbar ul#nav .active a {
+    background: #44bbaa;
+    border-left: 1px solid #111;
+}
 
-		#section-topbar ul#nav .active a:hover {
-			background: #44bbaa;
-		}
+#section-topbar ul#nav .active a:hover {
+    background: #44bbaa;
+}
+
 #section-topbar i {
-	font-size: 25px;
+    font-size: 25px;
 }
+
+
 /*---------------------------------------------------
 	SECTION WRAPS
 ---------------------------------------------------*/
 
+
 /* Header Wrap */
+
 #headerwrap {
-	background: url(../img/header-bg.jpg) no-repeat center top;
-	margin-top: 45px;
-	padding-top:140px;
-	text-align:center;
-	background-attachment: relative;
-	background-position: center center;
-	min-height: 500px;
-	width: 100%;
-	
+    background: url(../img/header-bg.jpg) no-repeat center top;
+    margin-top: 45px;
+    padding-top: 140px;
+    text-align: center;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
     -o-background-size: 100%;
     background-size: 100%;
-
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -166,188 +176,196 @@ a:after {
 }
 
 #headerwrap h1 {
-	font-size: 80px;
-	/*color:#2C3E50;*/
-	color:#ffffff;
+    font-size: 80px;
+    /*color:#2C3E50;*/
+    color: #ffffff;
 }
 
 #headerwrap h3 {
-	font-size: 20px;
-	/*color:#2C3E50;*/
-	color:#ffffff;
+    font-size: 20px;
+    /*color:#2C3E50;*/
+    color: #ffffff;
 }
+
 
 /* Intnro Wrap */
 
 #intro {
-	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
-	color: white;
-} 
+    background: #2c3e50;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
+}
 
-#intro h5, p {
-	color: white;
+#intro h5,
+p {
+    color: white;
 }
 
 #intro i {
-	color: white;
-	font-size: 20px;
-	padding-right: 8px;
-	vertical-align: middle;
+    color: white;
+    font-size: 20px;
+    padding-right: 8px;
+    vertical-align: middle;
 }
-
 
 #skillswrap {
-	background: #2c3e50;
-	padding-top: 60px;
-	padding-bottom: 60px;
-	color: white;
+    background: #2c3e50;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    color: white;
 }
 
-#skillswrap h5, p {
-	color: white;
+#skillswrap h5,
+p {
+    color: white;
 }
 
 #footwrap {
-	background: #2f2f2f;
-	padding-top: 50px;
-	padding-bottom: 50px;
+    background: #2f2f2f;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 #footwrap p {
-	color: white;
+    color: white;
 }
 
 #footwrap h5 {
-	color: white;
+    color: white;
 }
 
-
 #footwrap t {
-	font-weight: 700;
+    font-weight: 700;
 }
 
 #footwrap i {
-	padding-right: 8px;
-	color: #1abc9c;
+    padding-right: 8px;
+    color: #1abc9c;
 }
+
 
 /* Copyright Wrap */
 
 #c {
-	background: #222222;
-	padding-top: 15px;
-	text-align: right;
+    background: #222222;
+    padding-top: 15px;
+    text-align: right;
 }
 
 #c p {
-	color: white
+    color: white
 }
-
 
 
 /* Global Values */
 
 .desc {
-	padding-top: 50px;
+    padding-top: 50px;
 }
 
 .desc p {
-	color: #2f2f2f;
+    color: #2f2f2f;
 }
 
 .desc t {
-	color: #34495e;
-	font-weight: 700;
+    color: #34495e;
+    font-weight: 700;
 }
 
 .desc imp {
-	padding: 6px;
-	color: white;
-	background: #34495e;
+    padding: 6px;
+    color: white;
+    background: #34495e;
 }
 
 .desc more {
-	color: #95a5a6;
+    color: #34495e;
 }
 
-
 sm {
-	font-size: 12px;
-	font-weight: bold;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 a.project {
-border: solid 1px rgb(26, 188, 156);
-padding: 7px;
-border-radius: 7px;
-background-color: rgb(171, 228, 241);
+    border: solid 1px rgb(26, 188, 156);
+    padding: 7px;
+    border-radius: 7px;
+    background-color: rgb(171, 228, 241);
 }
 
 .img-responsive {
-border: solid 1px rgb(91, 195, 168);
+    border: solid 1px rgb(91, 195, 168);
 }
 
 .cd-top.cd-is-visible {
-  visibility: visible;
-  opacity: 1;
-}
-.cd-top.cd-fade-out {
-  opacity: .5;
+    visibility: visible;
+    opacity: 1;
 }
 
+.cd-top.cd-fade-out {
+    opacity: .5;
+}
 
 .cd-top {
-  display: inline-block;
-  height: 40px;
-  width: 40px;
-  position: fixed;
-  bottom: 40px;
-  right: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
-  /* image replacement properties */
-  overflow: hidden;
-  text-indent: 100%;
-  white-space: nowrap;
-  background: rgba(232, 98, 86, 0.8) url("../img/cd-top-arrow.svg") no-repeat center 50%;
-  visibility: hidden;
-  opacity: 0;
-  -webkit-transition: opacity .3s 0s, visibility 0s .3s;
-  -moz-transition: opacity .3s 0s, visibility 0s .3s;
-  transition: opacity .3s 0s, visibility 0s .3s;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    position: fixed;
+    bottom: 40px;
+    right: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+    /* image replacement properties */
+    overflow: hidden;
+    text-indent: 100%;
+    white-space: nowrap;
+    background: rgba(232, 98, 86, 0.8) url("../img/cd-top-arrow.svg") no-repeat center 50%;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: opacity .3s 0s, visibility 0s .3s;
+    -moz-transition: opacity .3s 0s, visibility 0s .3s;
+    transition: opacity .3s 0s, visibility 0s .3s;
 }
-.cd-top.cd-is-visible, .cd-top.cd-fade-out, .no-touch .cd-top:hover {
-  -webkit-transition: opacity .3s 0s, visibility 0s 0s;
-  -moz-transition: opacity .3s 0s, visibility 0s 0s;
-  transition: opacity .3s 0s, visibility 0s 0s;
-}
-.cd-top.cd-is-visible {
-  /* the button becomes visible */
-  visibility: visible;
-  opacity: 1;
-  border-radius: 15px;
-}
-.cd-top.cd-fade-out {
-  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
-  opacity: .5;
-  border-radius: 15px;
-}
+
+.cd-top.cd-is-visible,
+.cd-top.cd-fade-out,
 .no-touch .cd-top:hover {
-  background-color: #e86256;
-  opacity: 1;
+    -webkit-transition: opacity .3s 0s, visibility 0s 0s;
+    -moz-transition: opacity .3s 0s, visibility 0s 0s;
+    transition: opacity .3s 0s, visibility 0s 0s;
 }
+
+.cd-top.cd-is-visible {
+    /* the button becomes visible */
+    visibility: visible;
+    opacity: 1;
+    border-radius: 15px;
+}
+
+.cd-top.cd-fade-out {
+    /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+    opacity: .5;
+    border-radius: 15px;
+}
+
+.no-touch .cd-top:hover {
+    background-color: #e86256;
+    opacity: 1;
+}
+
 @media only screen and (min-width: 768px) {
-  .cd-top {
-    right: 20px;
-    bottom: 20px;
-  }
+    .cd-top {
+        right: 20px;
+        bottom: 20px;
+    }
 }
+
 @media only screen and (min-width: 1024px) {
-  .cd-top {
-    height: 60px;
-    width: 60px;
-    right: 30px;
-    bottom: 30px;
-  }
+    .cd-top {
+        height: 60px;
+        width: 60px;
+        right: 30px;
+        bottom: 30px;
+    }
 }
